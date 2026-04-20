@@ -1,3 +1,4 @@
+---@module 'spectre.actions'
 local api = vim.api
 local config = require('spectre.config')
 local state = require('spectre.state')
@@ -5,7 +6,6 @@ local Path = require('plenary.path')
 local state_utils = require('spectre.state_utils')
 local utils = require('spectre.utils')
 
----@module 'spectre.actions'
 local M = {}
 
 ---Open a file at the given position, optionally in a specific window.

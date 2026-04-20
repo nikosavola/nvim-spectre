@@ -65,7 +65,7 @@ end
 ---@return table spectre Status line configuration table
 M.status_line = function(opt)
     opt = opt or {}
-    local slant_right = opt.seprator or ''
+    local slant_right = opt.separator or opt.seprator or ''
     local main_color = opt.main_color or 'black'
     local spectre = {
         filetypes = { 'spectre_panel' },
